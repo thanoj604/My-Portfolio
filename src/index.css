@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: black;
+}
+
+#main{
+  width: fit-content;
+}
+
+
+#RotateItem{
+  position: relative;
+  perspective: 500px;
+}
+
+
+#tiltDiv{
+
+  /* background-color: aqua; */
+  width: fit-content;
+  transform: rotateY(50deg);
+
+}
+
+
+#Technologies{
+  position: relative;
+  perspective: 500px;
+}
+
+
+
+.techsec{
+  transform-origin: 100% 70%;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
